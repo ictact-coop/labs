@@ -1,8 +1,3 @@
-# 공동체IT사회적협동조합 정관 및 규약
+# 공동체IT사협 연구소!
 
-
-
-## 마크다운 참고
-
-- <https://gist.github.com/ihoneymon/652be052a0727ad59601>
-- <https://guides.github.com/features/mastering-markdown/>
+공동체에 필요한 기술을 조사하고 연구하고 개발하며 공유합니다.
