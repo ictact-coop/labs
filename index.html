@@ -1,0 +1,25 @@
+---
+title: 무려 연구소!
+layout: page
+---
+
+<div class="jumbotron">
+  <div class="container pt-5">
+    <h1 class="display-3"><i class="fa fa-flask mr-2" aria-hidden="true"></i> {{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">자세히 알아보기 »</a></p> -->
+  </div>
+</div>
+
+<div class="container mb-5">
+  <!-- Example row of columns -->
+  <div class="row">
+  {% for project in site.data.projects %}
+    <div class="col-md-4">
+      <h2>{{ project.title }}</h2><hr>
+      <p>{{ project.description | newline_to_br }}</p>
+      <p><a class="btn btn-secondary" href="{{ project.url }}" target="_blank" role="button"><i class="fa fa-info-circle" aria-hidden="true"></i> 좀 더 자세히 »</a></p>
+    </div>
+  {% endfor %}
+  </div>
+</div>

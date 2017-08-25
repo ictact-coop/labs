@@ -1,0 +1,17 @@
+title: 공동체IT사협 연구소!
+description: 공동체에 필요한 기술을 조사하고 연구하고 개발하며 공유합니다.
+
+baseurl: ''
+url: ''
+
+timezone: Asia/Seoul
+permalink: pretty
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+sass:
+  sass_dir: _scss
+  style: compressed
